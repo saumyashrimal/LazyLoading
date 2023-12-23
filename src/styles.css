@@ -1,0 +1,17 @@
+
+#images-container {
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    width: 400px;
+    height: 400px;
+    margin-top: 5px;
+    transform: translateX(100px);
+    transition: 150ms;
+}
+
+img.show {
+    transform: translate(0);
+}
